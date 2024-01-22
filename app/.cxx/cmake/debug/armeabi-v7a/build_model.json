@@ -1,0 +1,74 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/thiago/StudioProjects/OpenMP_Android-master",
+      "sdkFolder": "/home/thiago/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app",
+      "makeFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/.cxx",
+      "cxxFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx",
+      "ndkFolder": "/home/thiago/Android/Sdk/ndk/26.1.10909125",
+      "ndkVersion": "26.1.10909125",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_ARM_NEON\u003dON"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++14 -fopenmp -static-openmp"
+    ],
+    "variantName": "debug",
+    "soFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 28,
+  "cxxBuildFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

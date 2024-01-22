@@ -1,0 +1,4 @@
+# ninja log v5
+1	29	1705883399	CMakeFiles/native-lib.dir/Laplacian.cpp.o	e29a40d01235028a
+1	563	1705883399	CMakeFiles/native-lib.dir/native-lib.cpp.o	220fe615ab27510e
+563	589	1705883399	/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	da884c901ac60735

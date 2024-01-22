@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

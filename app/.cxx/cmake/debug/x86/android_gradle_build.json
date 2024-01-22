@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/thiago/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/thiago/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/thiago/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/x86",
+        "native-lib"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "output": "/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

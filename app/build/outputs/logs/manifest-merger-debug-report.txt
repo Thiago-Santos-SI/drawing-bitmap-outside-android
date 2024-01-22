@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] /home/thiago/.gradle/caches/transforms-3/4ff5f9192baed12a8cdb11a3669850cd/transformed/jetified-AnyChart-Android-1.1.2/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/thiago/.gradle/caches/transforms-3/a2d3785ea76e5c04a4edb243735bcba8/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/thiago/.gradle/caches/transforms-3/38591fd0eeead68e88f2812afffadf66/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/thiago/.gradle/caches/transforms-3/4f04be56380f25ede18d5ef32b66fb2f/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/thiago/.gradle/caches/transforms-3/7ec1190444f06b84b63ad94a98ae4b89/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/thiago/.gradle/caches/transforms-3/8408230468435522657d6496c426ea13/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/thiago/.gradle/caches/transforms-3/ee89c1f555ae1a189919a5c57cb77c5b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/thiago/.gradle/caches/transforms-3/c429e1ff41931e857d201fcd5193e04d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/thiago/.gradle/caches/transforms-3/5bf0a9fc2339d849870a61861d7eeebd/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/thiago/.gradle/caches/transforms-3/c13daa34639b2503e909733005a9bd3f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/thiago/.gradle/caches/transforms-3/661e819855144e897c16edf1e73b0b4c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/thiago/.gradle/caches/transforms-3/353c40d2a8b83ddb2371aff75fd65736/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/thiago/.gradle/caches/transforms-3/0aa75ca0686c78e81e583cda63f3face/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/thiago/.gradle/caches/transforms-3/fe0cc4e4eddb565af88ae538a0368f89/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/thiago/.gradle/caches/transforms-3/1a15f5e6ef361c53147f4e14406ce222/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/thiago/.gradle/caches/transforms-3/604d40c4915205bb73587afd5cbf4d39/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/thiago/.gradle/caches/transforms-3/0cd4fe5c7ed69153f1b71e234b1b538e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/thiago/.gradle/caches/transforms-3/53f8c292997d11bf85b9dafda1f96a52/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/thiago/.gradle/caches/transforms-3/f0b763004263992a1414386a203d5bc1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiago/.gradle/caches/transforms-3/0ba07fc07c5e710cfb6c34aacc12c7d8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiago/.gradle/caches/transforms-3/221acf0c25bdd601b541f4de4aec857b/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] /home/thiago/.gradle/caches/transforms-3/4ff5f9192baed12a8cdb11a3669850cd/transformed/jetified-AnyChart-Android-1.1.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] /home/thiago/.gradle/caches/transforms-3/4ff5f9192baed12a8cdb11a3669850cd/transformed/jetified-AnyChart-Android-1.1.2/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/thiago/.gradle/caches/transforms-3/38591fd0eeead68e88f2812afffadf66/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/thiago/.gradle/caches/transforms-3/38591fd0eeead68e88f2812afffadf66/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/thiago/.gradle/caches/transforms-3/fe0cc4e4eddb565af88ae538a0368f89/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/thiago/.gradle/caches/transforms-3/fe0cc4e4eddb565af88ae538a0368f89/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.CS639Playground.MainActivity
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:12:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] /home/thiago/.gradle/caches/transforms-3/4ff5f9192baed12a8cdb11a3669850cd/transformed/jetified-AnyChart-Android-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AnyChart:AnyChart-Android:1.1.2] /home/thiago/.gradle/caches/transforms-3/4ff5f9192baed12a8cdb11a3669850cd/transformed/jetified-AnyChart-Android-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/thiago/.gradle/caches/transforms-3/a2d3785ea76e5c04a4edb243735bcba8/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/thiago/.gradle/caches/transforms-3/a2d3785ea76e5c04a4edb243735bcba8/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/thiago/.gradle/caches/transforms-3/38591fd0eeead68e88f2812afffadf66/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/thiago/.gradle/caches/transforms-3/38591fd0eeead68e88f2812afffadf66/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/thiago/.gradle/caches/transforms-3/4f04be56380f25ede18d5ef32b66fb2f/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/thiago/.gradle/caches/transforms-3/4f04be56380f25ede18d5ef32b66fb2f/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/thiago/.gradle/caches/transforms-3/7ec1190444f06b84b63ad94a98ae4b89/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/thiago/.gradle/caches/transforms-3/7ec1190444f06b84b63ad94a98ae4b89/transformed/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/thiago/.gradle/caches/transforms-3/8408230468435522657d6496c426ea13/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/thiago/.gradle/caches/transforms-3/8408230468435522657d6496c426ea13/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/thiago/.gradle/caches/transforms-3/ee89c1f555ae1a189919a5c57cb77c5b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/thiago/.gradle/caches/transforms-3/ee89c1f555ae1a189919a5c57cb77c5b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/thiago/.gradle/caches/transforms-3/c429e1ff41931e857d201fcd5193e04d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/thiago/.gradle/caches/transforms-3/c429e1ff41931e857d201fcd5193e04d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/thiago/.gradle/caches/transforms-3/5bf0a9fc2339d849870a61861d7eeebd/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/thiago/.gradle/caches/transforms-3/5bf0a9fc2339d849870a61861d7eeebd/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/thiago/.gradle/caches/transforms-3/c13daa34639b2503e909733005a9bd3f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/thiago/.gradle/caches/transforms-3/c13daa34639b2503e909733005a9bd3f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/thiago/.gradle/caches/transforms-3/661e819855144e897c16edf1e73b0b4c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/thiago/.gradle/caches/transforms-3/661e819855144e897c16edf1e73b0b4c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/thiago/.gradle/caches/transforms-3/353c40d2a8b83ddb2371aff75fd65736/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/thiago/.gradle/caches/transforms-3/353c40d2a8b83ddb2371aff75fd65736/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/thiago/.gradle/caches/transforms-3/83a7a5402b958c46ad50f8f137e14bb4/transformed/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/thiago/.gradle/caches/transforms-3/0aa75ca0686c78e81e583cda63f3face/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/thiago/.gradle/caches/transforms-3/0aa75ca0686c78e81e583cda63f3face/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/thiago/.gradle/caches/transforms-3/fe0cc4e4eddb565af88ae538a0368f89/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/thiago/.gradle/caches/transforms-3/fe0cc4e4eddb565af88ae538a0368f89/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/thiago/.gradle/caches/transforms-3/1a15f5e6ef361c53147f4e14406ce222/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/thiago/.gradle/caches/transforms-3/1a15f5e6ef361c53147f4e14406ce222/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/thiago/.gradle/caches/transforms-3/604d40c4915205bb73587afd5cbf4d39/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/thiago/.gradle/caches/transforms-3/604d40c4915205bb73587afd5cbf4d39/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/thiago/.gradle/caches/transforms-3/0cd4fe5c7ed69153f1b71e234b1b538e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/thiago/.gradle/caches/transforms-3/0cd4fe5c7ed69153f1b71e234b1b538e/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/thiago/.gradle/caches/transforms-3/53f8c292997d11bf85b9dafda1f96a52/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/thiago/.gradle/caches/transforms-3/53f8c292997d11bf85b9dafda1f96a52/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/thiago/.gradle/caches/transforms-3/f0b763004263992a1414386a203d5bc1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/thiago/.gradle/caches/transforms-3/f0b763004263992a1414386a203d5bc1/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiago/.gradle/caches/transforms-3/0ba07fc07c5e710cfb6c34aacc12c7d8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/thiago/.gradle/caches/transforms-3/0ba07fc07c5e710cfb6c34aacc12c7d8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiago/.gradle/caches/transforms-3/221acf0c25bdd601b541f4de4aec857b/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/thiago/.gradle/caches/transforms-3/221acf0c25bdd601b541f4de4aec857b/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/thiago/StudioProjects/OpenMP_Android-master/app/src/main/AndroidManifest.xml

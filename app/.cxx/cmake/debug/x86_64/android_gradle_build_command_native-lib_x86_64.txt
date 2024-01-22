@@ -1,0 +1,7 @@
+Executable : /home/thiago/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/thiago/StudioProjects/OpenMP_Android-master/app/.cxx/cmake/debug/x86_64
+native-lib
+jvmArgs : 
+

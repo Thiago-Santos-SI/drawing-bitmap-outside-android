@@ -1,0 +1,7 @@
+#Sun Jan 21 21:42:30 BRT 2024
+base.1=/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out/classes.dex
+path.1=classes.dex
+base.0=/home/thiago/StudioProjects/OpenMP_Android-master/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
