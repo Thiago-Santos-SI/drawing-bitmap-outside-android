@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.os.Bundle;
 import android.util.Base64;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -24,7 +25,10 @@ import com.anychart.enums.MarkerType;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         return partes;
     }
 
-    private Bitmap criarBitmapComCruz() {
+    private Bitmap criarBitmapComCruzSample() {
         int largura = 369;
         int altura = 800;
 
@@ -104,6 +108,53 @@ public class MainActivity extends AppCompatActivity {
 
         // Desenha a linha vertical da cruz
         canvas.drawRect(centerX - size / 10, centerY - size / 2, centerX + size / 10, centerY + size / 2, paint);
+    }
+
+    private Bitmap criarBitmapComCruz() {
+        int largura = 369;
+        int altura = 800;
+
+        Bitmap bitmap = Bitmap.createBitmap(largura, altura, Bitmap.Config.ARGB_8888);
+        preencherComCoresAleatorias(bitmap);
+
+        Canvas canvas = new Canvas(bitmap);
+        float centerX = largura / 2.0f;
+        float centerY = altura / 2.0f;
+
+        float crossSize = Math.min(largura, altura) * 0.4f;
+
+        drawCross(canvas, centerX, centerY, crossSize);
+        return bitmap;
+    }
+
+    private void preencherComCoresAleatorias(Bitmap bitmap) {
+        Random random = new Random();
+        int largura = bitmap.getWidth();
+        int altura = bitmap.getHeight();
+        int[] pixels = new int[largura * altura];
+
+        for (int i = 0; i < pixels.length; i++) {
+            pixels[i] = Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256));
+        }
+
+        bitmap.setPixels(pixels, 0, largura, 0, 0, largura, altura);
+    }
+
+    private void drawCross(Canvas canvas, float centerX, float centerY, float size) {
+        Random random = new Random();
+
+        // Desenha a linha horizontal da cruz
+        drawRandomColorRect(canvas, centerX - size / 2, centerY - size / 10, centerX + size / 2, centerY + size / 10, random);
+
+        // Desenha a linha vertical da cruz
+        drawRandomColorRect(canvas, centerX - size / 10, centerY - size / 2, centerX + size / 10, centerY + size / 2, random);
+    }
+
+    private void drawRandomColorRect(Canvas canvas, float left, float top, float right, float bottom, Random random) {
+        Paint paint = new Paint();
+        paint.setColor(Color.rgb(random.nextInt(256), random.nextInt(256), random.nextInt(256)));
+        paint.setStyle(Paint.Style.FILL);
+        canvas.drawRect(left, top, right, bottom, paint);
     }
     public static byte[] compress(byte[] data) throws IOException {
         Deflater deflater = new Deflater(Deflater.DEFAULT_COMPRESSION);
@@ -150,6 +201,45 @@ public class MainActivity extends AppCompatActivity {
         return captureAndResizeView(bitmap, view.getMeasuredWidth(), view.getMeasuredHeight(), 800);
     }
 
+    public static Bitmap generateColorfulBitmap() {
+        int width = 5;
+        int height = 5;
+
+        // Criar um Bitmap com o formato ARGB8888
+        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+
+        // Criar um Canvas para desenhar no Bitmap
+        Canvas canvas = new Canvas(bitmap);
+
+        // Array de cores diferentes
+        int[] colors = {
+                Color.RED,
+                Color.GREEN,
+                Color.BLUE,
+                Color.YELLOW,
+                Color.CYAN,
+                // Adicione mais cores conforme necessário
+        };
+
+        // Índice para percorrer o array de cores
+        int colorIndex = 0;
+
+        // Preencher cada pixel com uma cor diferente
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                // Obter a cor atual do array
+                int currentColor = colors[colorIndex];
+
+                // Pintar o pixel no Canvas
+                bitmap.setPixel(x, y, currentColor);
+
+                // Avançar para a próxima cor no array
+                colorIndex = (colorIndex + 1) % colors.length;
+            }
+        }
+
+        return bitmap;
+    }
     private static class ColorExtractorTask implements Runnable {
         private final int[][] colors;
         private final int[] pixels;
@@ -170,11 +260,38 @@ public class MainActivity extends AppCompatActivity {
             for (int x = 0; x < width; x++) {
                 for (int y = startY; y < endY; y++) {
                     int pixelColor = pixels[y * width + x];
-                    colors[x][y] = pixelColor;
+
+                    // Verifica se a cor já foi adicionada
+                    if (colors[x][y] == 0) {
+                        colors[x][y] = pixelColor;
+                    }
                 }
             }
         }
     }
+
+    public static int[] extractColorsGetPixels(Bitmap bitmap) {
+        if (bitmap == null) {
+            return null;
+        }
+
+        long startTime = System.currentTimeMillis();  // Tempo de início da execução
+
+        int width = bitmap.getWidth();
+        int height = bitmap.getHeight();
+
+        int[] pixels = new int[width * height];
+        bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
+
+
+        long endTime = System.currentTimeMillis();
+        long elapsedTime = endTime - startTime;
+
+        System.out.println("Tempo de execução: " + elapsedTime + " milissegundos");
+
+        return pixels;
+    }
+
 
     public static int[][] extractColors(Bitmap bitmap) {
         if (bitmap == null) {
@@ -219,40 +336,6 @@ public class MainActivity extends AppCompatActivity {
         return colors;
     }
 
-
-    public static int[][] extractColorsSample(Bitmap bitmap) {
-        if (bitmap == null) {
-            return null;
-        }
-
-        long startTime = System.currentTimeMillis();  // Tempo de início da execução
-
-        int width = bitmap.getWidth();
-        int height = bitmap.getHeight();
-
-        int[][] colors = new int[width][height];
-        int pixelCount = 0;  // Contador de pixels
-
-        int[] pixels = new int[width * height];
-        bitmap.getPixels(pixels, 0, width, 0, 0, width, height);
-
-        for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                int pixelColor = pixels[y * width + x];
-                colors[x][y] = pixelColor;
-                pixelCount++;
-            }
-        }
-
-        long endTime = System.currentTimeMillis();  // Tempo de término da execução
-        long elapsedTime = endTime - startTime;  // Tempo total de execução
-
-        System.out.println("Número total de pixels: " + pixelCount);
-        System.out.println("Tempo de execução: " + elapsedTime + " milissegundos");
-
-        return colors;
-    }
-
     private Bitmap criarBitmapComCores(int[][] colors) {
         if (colors == null || colors.length == 0 || colors[0].length == 0) {
             return null;
@@ -275,7 +358,31 @@ public class MainActivity extends AppCompatActivity {
         return novoBitmap;
     }
 
+    public static Map<Integer, List<String>> countSequentialRepeatsMatrix(int[][] matrix) {
+        Map<Integer, List<String>> results = new HashMap<>();
 
+        if (matrix.length == 0 || matrix[0].length == 0) {
+            System.out.println("A matriz está vazia.");
+            return results;
+        }
+        for (int row = 0; row < matrix.length; row++) {
+            List<String> rowResults = new ArrayList<>();
+            int currentCount = 1;
+            int currentElement = matrix[row][0];
+            for (int column = 1; column < matrix[0].length; column++) {
+                if (matrix[row][column] == currentElement) {
+                    currentCount++;
+                } else {
+                    rowResults.add(currentCount + "x" + currentElement);
+                    currentCount = 1;
+                    currentElement = matrix[row][column];
+                }
+            }
+            rowResults.add(currentCount + "x" + currentElement);
+            results.put(row, rowResults);
+        }
+        return results;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -303,10 +410,17 @@ public class MainActivity extends AppCompatActivity {
         btnExecute.setOnClickListener(v -> {
             View currentView = findViewById(android.R.id.content);
 
-            Bitmap bitmap = criarBitmapComCruz();
-            int[][] a = extractColors(bitmap);
+            Bitmap bitmap = criarBitmapComCruzSample();
+            int[][] extractColors = extractColors(bitmap);
+            Map<Integer, List<String>> results = countSequentialRepeatsMatrix(extractColors);
+
+            //int[] extractColors = extractColorsGetPixels(bitmap);
+            //int[] extractColorsBytesArray = compressIntArray(extractColors);
+            //byte[] extractColorsBytes = convertIntArrayToBytes(extractColorsBytesArray);
+
             System.out.println();
-            Bitmap bitmap2 = criarBitmapComCores(a);
+
+            //Bitmap bitmap2 = criarBitmapComCores(extractColors);
             /*
             try {
                 byte[] a = compressBitmapWriteBinary(bitmap);
